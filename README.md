@@ -5,7 +5,6 @@
 ## Daftar Isi
 - [50 Command Dasar](50-command-dasar.sh) - Kumpulan perintah Linux dasar
 - [Git Push Guide](git-push-guide.sh) - Panduan push ke GitHub
-- [Analisis Group](tugas-analisis-group.txt) - Analisis file /etc/group
 
 ## Cara Menggunakan
 1. Clone repository ini
