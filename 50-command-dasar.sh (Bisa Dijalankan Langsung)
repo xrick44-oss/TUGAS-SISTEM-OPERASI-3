@@ -1,0 +1,94 @@
+#!/bin/bash
+# ============================================================
+# 50 COMMAND UBUNTU DASAR UNTUK PEMULA
+# ============================================================
+# Cara menjalankan: 
+#   chmod +x 50-command-dasar.sh
+#   ./50-command-dasar.sh
+# ============================================================
+
+echo "=========================================="
+echo " 50 COMMAND UBUNTU DASAR - DEMO & REFERENSI "
+echo "=========================================="
+echo ""
+
+echo "--- 1. NAVIGASI & FOLDER ---"
+echo "1.  pwd                     = Lihat folder saat ini"
+echo "2.  ls                      = Lihat daftar file/folder"
+echo "3.  ls -a                   = Lihat semua file (termasuk tersembunyi)"
+echo "4.  cd                      = Pindah ke folder home"
+echo "5.  cd ..                   = Mundur ke folder di atasnya"
+echo "6.  clear                   = Bersihkan layar terminal"
+echo "7.  history                 = Lihat riwayat perintah"
+echo ""
+
+echo "--- 2. MEMBUAT & MENGELOLA FILE ---"
+echo "8.  mkdir nama_folder       = Buat folder baru"
+echo "9.  touch file.txt          = Buat file kosong"
+echo "10. cp file1.txt file2.txt  = Salin file"
+echo "11. mv file.txt folder/     = Pindahkan file"
+echo "12. mv lama.txt baru.txt    = Ganti nama file"
+echo "13. rm file.txt             = Hapus file"
+echo "14. rmdir folder            = Hapus folder kosong"
+echo "15. rm -r folder            = Hapus folder & isinya (hati-hati!)"
+echo ""
+
+echo "--- 3. MELIHAT ISI FILE ---"
+echo "16. cat file.txt            = Tampilkan seluruh isi file"
+echo "17. nano file.txt           = Buka file dengan editor nano"
+echo "18. head file.txt           = Lihat 10 baris pertama"
+echo "19. tail file.txt           = Lihat 10 baris terakhir"
+echo "20. echo \"Teks\"            = Cetak teks di layar"
+echo "21. echo \"Teks\" > file.txt = Tulis teks ke file (timpa isi lama)"
+echo "22. echo \"Teks\" >> file.txt= Tambah teks ke akhir file"
+echo ""
+
+echo "--- 4. INFO SISTEM & KOMPUTER ---"
+echo "23. whoami                  = Lihat username"
+echo "24. hostname                = Lihat nama komputer"
+echo "25. uname -a                = Lihat info sistem (kernel, versi)"
+echo "26. df -h                   = Lihat sisa kapasitas harddisk"
+echo "27. du -sh folder/          = Lihat ukuran folder"
+echo "28. free -h                 = Lihat sisa RAM"
+echo "29. uptime                  = Lihat lama komputer menyala"
+echo "30. date                    = Lihat tanggal & jam"
+echo ""
+
+echo "--- 5. BANTUAN & PENCARIAN ---"
+echo "31. man ls                  = Buka panduan lengkap perintah ls"
+echo "32. ls --help               = Bantuan singkat perintah ls"
+echo "33. grep \"kata\" file.txt   = Cari kata dalam file"
+echo "34. find . -name \"file.txt\"= Cari file berdasarkan nama"
+echo ""
+
+echo "--- 6. INTERNET & JARINGAN ---"
+echo "35. ping google.com         = Tes koneksi internet"
+echo "36. curl google.com         = Ambil kode website"
+echo "37. wget alamat_link        = Download file dari internet"
+echo ""
+
+echo "--- 7. INSTALASI & HAK AKSES ---"
+echo "38. sudo                    = Jalankan perintah sebagai admin"
+echo "39. apt update              = Perbarui daftar aplikasi"
+echo "40. apt install git         = Install aplikasi (contoh: git)"
+echo ""
+
+echo "--- 8. PROSES & KELUAR ---"
+echo "41. ps aux                  = Lihat semua proses berjalan"
+echo "42. top                     = Lihat proses real-time"
+echo "43. kill 1234               = Hentikan proses dengan ID 1234"
+echo "44. exit                    = Tutup terminal"
+echo ""
+
+echo "--- 9. PERINTAH GIT UNTUK PUSH KE GITHUB ---"
+echo "45. git --version           = Cek versi Git"
+echo "46. git init                = Inisialisasi repositori Git"
+echo "47. git status              = Cek status file"
+echo "48. git add .               = Tambahkan semua file ke staging"
+echo "49. git commit -m \"Pesan\"   = Simpan perubahan dengan pesan"
+echo "50. git push -u origin main = Kirim ke GitHub"
+echo ""
+
+echo "=========================================="
+echo "         SELESAI! SEMOGA BERMANFAAT       "
+echo "=========================================="
