@@ -1,1 +1,13 @@
-# TUGAS SISTEM OPERASI 3
+**Nama:** [Isi Nama Kamu]  
+**NIM:** [Isi NIM Kamu]  
+**Tanggal:** 8 September 2026
+
+## Daftar Isi
+- [50 Command Dasar](50-command-dasar.sh) - Kumpulan perintah Linux dasar
+- [Git Push Guide](git-push-guide.sh) - Panduan push ke GitHub
+- [Analisis Group](tugas-analisis-group.txt) - Analisis file /etc/group
+
+## Cara Menggunakan
+1. Clone repository ini
+2. Jalankan `bash 50-command-dasar.sh` untuk melihat demo perintah
+3. Ikuti panduan di `git-push-guide.sh` untuk push ke GitHub
